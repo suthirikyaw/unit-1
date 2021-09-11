@@ -4,9 +4,15 @@ A = int(input())
 
 B = int(input())
 
+if A<=B:
+
  for i in range(A, B+1):
 
     print(i)
+    
+else:
+
+    print("Wrong values")
     
 # Given two integers A and B. Print all numbers from A to B inclusively, in ascending order, if A < B, or in descending order, if A ≥ B.
 
@@ -97,3 +103,19 @@ for i in range(N):
 
 print("Number of zeroes: ", counter)
 
+# Given an integer n, print the sum 1!+2!+3!+...+n!.
+# This problem has a solution with only one loop, so try to discover it. And don't use the math library :)
+
+product = 1
+
+sum = 0
+
+n = int(input())
+
+for i in range(1, n+1):
+
+  product *= i
+  
+  sum += product 
+
+print(sum)
