@@ -14,6 +14,8 @@ else:
 
     print("Wrong values")
     
+ ![](4.1.png)
+    
 # Given two integers A and B. Print all numbers from A to B inclusively, in ascending order, if A < B, or in descending order, if A ≥ B.
 
 A = int(input())
@@ -31,6 +33,8 @@ else:
     for i in range (A, B-1, -1):
     
         print(i) 
+        
+  ![](4.2.png)
 
 # 10 numbers are given in the input. Read them and print their sum. Use as few variables as you can.
 
