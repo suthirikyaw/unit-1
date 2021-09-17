@@ -104,3 +104,16 @@ while num != 0:
 
 print(sum/counter)
     
+# The maximum of the sequence
+## A sequence consists of integer numbers and ends with the number 0. Determine the largest element of the sequence.
+    
+maximum = 0
+num = int(input())
+
+while num != 0:
+    if num > maximum:
+        maximum = num
+    num = int(input())
+
+print(maximum)
+    
