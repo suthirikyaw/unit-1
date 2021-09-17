@@ -186,3 +186,22 @@ while num != 0:
 
 print(bigger-1)
 
+# The second maximum
+### The sequence consists of distinct positive integer numbers and ends with the number 0. Determine the value of the second largest element in this sequence. It is guaranteed that the sequence has at least two elements.
+
+max = int(input())
+second = int(input())
+
+if max < second:
+    max = second
+    second = max
+    
+num = int(input())
+while num != 0:
+    if num > max:
+        second = max
+        max = num
+    elif num > second:
+        second = num
+    num = int(input())
+print(second)
