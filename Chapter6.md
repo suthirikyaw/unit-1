@@ -63,6 +63,8 @@ while x < y:
     
 print(counter)
 
+![](6.4.png)  
+
 # The length of the sequence
 ### Given a sequence of non-negative integers, where each number is written in a separate line. Determine the length of the sequence, where the sequence ends when the integer is ### equal to 0. Print the length of the sequence (not counting the integer 0). The numbers following the number 0 should be omitted.
 
@@ -78,6 +80,8 @@ while num != 0:
     
 print(counter)
 
+![](6.5.png)
+
 # The sum of the sequence
 ### Determine the sum of all elements in the sequence, ending with the number 0.
 
@@ -92,6 +96,8 @@ while  num != 0:
     num = int(input())
 
 print(sum)
+
+![](6.6.png)
 
 # The average of the sequence
 ### Determine the average of all elements of the sequence ending with the number 0.
@@ -111,6 +117,8 @@ while num != 0:
     num = int(input())
 
 print(sum/counter)
+
+![](6.7.png)
     
 # The maximum of the sequence
 ## A sequence consists of integer numbers and ends with the number 0. Determine the largest element of the sequence.
@@ -128,6 +136,8 @@ while num != 0:
     num = int(input())
 
 print(maximum)
+
+![](6.8.png)
 
 # The index of the maximum of a sequence
 ## A sequence consists of integer numbers and ends with the number 0. Determine the index of the largest element of the sequence. If the highest element is not unique, print the     index of the first of them.
@@ -154,6 +164,8 @@ while num != 0:
 
 print(index)
 
+![](6.9.png)
+
 # The number of even elements of the sequence
 ### Determine the number of even elements in the sequence ending with the number 0.
 
@@ -171,6 +183,8 @@ while num != 0:
 
 print(even)
 
+![](6.10.png)
+
 # The number of elements that are greater than the previous one
 ### A sequence consists of integer numbers and ends with the number 0. Determine how many elements of this sequence are greater than their neighbours above.
 
@@ -185,6 +199,8 @@ while num != 0:
     num = int(input())
 
 print(bigger-1)
+
+![](6.11.png)
 
 # The second maximum
 ### The sequence consists of distinct positive integer numbers and ends with the number 0. Determine the value of the second largest element in this sequence. It is guaranteed that the sequence has at least two elements.
