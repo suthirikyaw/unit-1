@@ -77,3 +77,16 @@ while num != 0:
     num = int(input())
     
 print(counter)
+
+# The sum of the sequence
+### Determine the sum of all elements in the sequence, ending with the number 0.
+
+num = int(input())
+sum = 0
+
+while  num != 0:
+    sum += num
+    num = int(input())
+
+print(sum)
+    
