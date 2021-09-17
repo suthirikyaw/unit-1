@@ -89,4 +89,18 @@ while  num != 0:
     num = int(input())
 
 print(sum)
+
+# The average of the sequence
+### Determine the average of all elements of the sequence ending with the number 0.
+
+num = int(input())
+sum = 0
+counter = 0
+
+while num != 0:
+    sum += num
+    counter += 1
+    num = int(input())
+
+print(sum/counter)
     
