@@ -13,6 +13,8 @@ while i**2 <= n:
     
     i += 1
     
+![](6.1.png)  
+
 # Least divisor    
 ### Given an integer not less than 2. Print its smallest integer divisor greater than 1.
 
@@ -25,6 +27,8 @@ while n % i != 0:
     i += 1
     
 print(i)
+
+![](6.2.png)  
 
 # The Power of Two
 ### For a given integer N, find the greatest integer x where 2x is less than or equal to N. Print the exponent value and the result of the expression 2x.
@@ -43,6 +47,8 @@ while power <= n:
     x += 1
     
 print(x - 1, power // 2)
+
+![](6.3.png)  
 
 # Morning jog
 ### As a future athlete you just started your practice for an upcoming event. Given that on the first day you run x miles, and by the event you must be able to run y miles.
