@@ -4,19 +4,26 @@
 ### For a given integer N, print all the squares of integer numbers where the square is less than or equal to N, in ascending order
 
 n = int(input())
+
 i = 1
 
 while i**2 <= n:
+
     print(i**2)
+    
     i += 1
     
 # Least divisor    
 ### Given an integer not less than 2. Print its smallest integer divisor greater than 1.
 
 n = int(input())
+
 i = 2
+
 while n % i != 0:
+
     i += 1
+    
 print(i)
 
 # The Power of Two
@@ -24,11 +31,17 @@ print(i)
 ### Don't use the operation **.
 
 n = int(input())
+
 power = 2
+
 x = 1
+
 while power <= n:
+
     power = power* 2
+    
     x += 1
+    
 print(x - 1, power // 2)
 
 # Morning jog
@@ -37,11 +50,15 @@ print(x - 1, power // 2)
 ### Print one integer representing the number of days to reach the required distance.
 
 x = int(input())
+
 y = int(input())
+
 counter = 1
 
 while x < y:
+
     counter += 1
+    
     x = x*1.10
     
 print(counter)
@@ -50,10 +67,13 @@ print(counter)
 ### Given a sequence of non-negative integers, where each number is written in a separate line. Determine the length of the sequence, where the sequence ends when the integer is ### equal to 0. Print the length of the sequence (not counting the integer 0). The numbers following the number 0 should be omitted.
 
 num = int(input())
+
 counter = 0
 
 while num != 0:
-    counter += 1 
+
+    counter += 1
+    
     num = int(input())
     
 print(counter)
