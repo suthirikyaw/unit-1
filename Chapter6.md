@@ -170,3 +170,19 @@ while num != 0:
     num = int(input())
 
 print(even)
+
+# The number of elements that are greater than the previous one
+### A sequence consists of integer numbers and ends with the number 0. Determine how many elements of this sequence are greater than their neighbours above.
+
+bigger = 0
+previous = 0
+
+num = int(input())
+while num != 0:
+    if num > previous:
+        bigger +=1
+    previous = num
+    num = int(input())
+
+print(bigger-1)
+
