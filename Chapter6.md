@@ -82,10 +82,13 @@ print(counter)
 ### Determine the sum of all elements in the sequence, ending with the number 0.
 
 num = int(input())
+
 sum = 0
 
 while  num != 0:
+
     sum += num
+    
     num = int(input())
 
 print(sum)
@@ -94,12 +97,17 @@ print(sum)
 ### Determine the average of all elements of the sequence ending with the number 0.
 
 num = int(input())
+
 sum = 0
+
 counter = 0
 
 while num != 0:
+
     sum += num
+    
     counter += 1
+    
     num = int(input())
 
 print(sum/counter)
@@ -108,12 +116,41 @@ print(sum/counter)
 ## A sequence consists of integer numbers and ends with the number 0. Determine the largest element of the sequence.
     
 maximum = 0
+
 num = int(input())
 
 while num != 0:
+
     if num > maximum:
+    
         maximum = num
+        
     num = int(input())
 
 print(maximum)
+
+# The index of the maximum of a sequence
+## A sequence consists of integer numbers and ends with the number 0. Determine the index of the largest element of the sequence. If the highest element is not unique, print the     index of the first of them.
+
+maximum = 0
+
+counter = 0
+
+index = 0
+
+num = int(input())
+
+while num != 0:
+
+    counter += 1
+    
+    if num > maximum:
+    
+        maximum = num
+        
+        index = counter
+        
+    num = int(input())
+
+print(index)
     
