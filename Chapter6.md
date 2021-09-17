@@ -153,4 +153,20 @@ while num != 0:
     num = int(input())
 
 print(index)
+
+# The number of even elements of the sequence
+### Determine the number of even elements in the sequence ending with the number 0.
+
+even = 0
+
+num = int(input())
+
+while num != 0:
+
+    if num % 2 == 0:
     
+        even += 1
+        
+    num = int(input())
+
+print(even)
