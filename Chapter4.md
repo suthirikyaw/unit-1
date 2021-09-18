@@ -113,6 +113,8 @@ for i in range(N):
 
 print("Number of zeroes: ", counter)
 
+![](4.6.png)
+
 # Given an integer n, print the sum 1!+2!+3!+...+n!.
 # This problem has a solution with only one loop, so try to discover it. And don't use the math library :)
 
@@ -130,6 +132,8 @@ for i in range(1, n+1):
 
 print(sum)
 
+![](4.7.png)
+
 # For given integer n ≤ 9 print a ladder of n steps. The k-th step consists of the integers from 1 to k without spaces between them.
 # To do that, you can use the sep and end arguments for the function print().
 
@@ -142,3 +146,6 @@ for i in range(1, n+1):
         print(j, sep = "", end = "")
         
     print()
+
+
+![](4.8.png)
