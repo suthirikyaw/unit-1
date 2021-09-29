@@ -13,3 +13,11 @@ There are a lot of similarities between the two design cycles for example, the f
 ### Question 4: What are the simple principles for human-centered design presented in the video? Write a sentence with the definition of each.
 
 One of the principles is OBSERVATION where we watch and study what’s happening around us and how people interact with objects. From observing we get IDEA GENERATION where we think of proposals and solutions on how to fix problems that we notice people struggle with everyday. Then from all the ideation we are ready to turn all the ideas into reality by PROTOTYPING which is creating a rough product that isn’t perfect but overall shows what the final product will look like and fix anything that’s needed. Finally after building and creating, we get to TESTING which is to make sure the product does what it’s meant to do and the function of it is clear. Then we have the final product. 
+
+### Question 5. Consider your game. Think about ways you can improve the Players’ Experience using Human-centered design. Write below your ideas:
+
+Observe the best way to give out instructions of the game. Do people like tutorials that are straight to the point or tutorials within the game?
+Get ideas from different types of people to have a diverse set of ideas
+Make a simple game first then ask feedback to add more complicated things
+Test the game every time I add ascii images to make sure they come out nicely
+Test the game every time I add a decision making mechanic to see if it works properly
