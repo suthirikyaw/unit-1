@@ -1,5 +1,5 @@
-``.py
 
+```.py
 def blue_box(num1,num2):
     sum = num1 + num2
     if sum%2==0:
