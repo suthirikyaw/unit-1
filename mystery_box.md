@@ -1,6 +1,6 @@
+```.py
 ### When capitalize = True, output the phrase with capitals but when capitalize = False, output the phrase but in lowercase
 
-```.py
 def mystery_box1(phrase, tof):
     lst = []
     phraselen = len(phrase)
